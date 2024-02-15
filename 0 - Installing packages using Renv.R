@@ -16,7 +16,18 @@ library(skpr)
 renv::install("tidyverse")
 library(tidyverse)
 
+# There are a few packages required for the analysis
+renv::install("ordinal")
+library(ordinal)
 
+renv::install("parameters")
+library(parameters)
+
+renv::install("emmeans")
+library(emmeans)
+
+renv::install("see")
+library(see)
 
 
 renv::snapshot()
